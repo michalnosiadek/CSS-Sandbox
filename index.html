@@ -88,18 +88,27 @@
 
     <div id="main">
       <div class="container">
-        <h1>testing grounds</h1>
-        <input
-          type="radio"
-          name="location"
-          id=""
-          onclick="openNavLeft(); closeNavRight()"
-        /><input
-          type="radio"
-          name="location"
-          id=""
-          onclick="openNavRight(); closeNavLeft()"
-        />
+        <h1 style="background-color: rgba(0, 0, 0, 0.315); max-width: 250px">
+          testing grounds
+        </h1>
+        <div class="radio-button-left-container">
+          <label for="radio-button-left">left small</label>
+          <input
+            type="radio"
+            name="location"
+            id="radio-button-left"
+            onclick="openNavLeft(); closeNavRight()"
+          />
+        </div>
+        <div class="radio-button-right-container">
+          <label for="radio-button-right">right big</label>
+          <input
+            type="radio"
+            name="location"
+            id="radio-button-right"
+            onclick="openNavRight(); closeNavLeft()"
+          />
+        </div>
       </div>
     </div>
 

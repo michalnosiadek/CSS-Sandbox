@@ -113,3 +113,20 @@ h2{
     height: 100%;
 }
     
+.radio-button-left-container {
+    position: relative;
+    top: 170px;
+    left: 435px;
+    background-color: #111111ab;
+    max-width: 8em;
+    padding: 1em;
+}
+.radio-button-right-container {
+    position: relative;
+    top: 150px;
+    left: 900px;
+    background-color: #111111ab;
+    max-width: 8em;
+    padding: 1em;
+
+}
