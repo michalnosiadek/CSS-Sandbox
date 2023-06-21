@@ -114,6 +114,8 @@ h2{
 }
     
 .radio-button-left-container {
+    border-radius: 10em;
+
     position: relative;
     top: 170px;
     left: 435px;
@@ -122,11 +124,54 @@ h2{
     padding: 1em;
 }
 .radio-button-right-container {
+    border-radius: 10em;
+
     position: relative;
-    top: 150px;
-    left: 900px;
+    top: 420px;
+    left: 550px;
     background-color: #111111ab;
     max-width: 8em;
     padding: 1em;
 
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: .5em;
+    border-radius: 10em;
+    top:150px;
+    left: 950px;
+    border-bottom: 1px dotted black;
+    background-color: #444;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -140px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .title {
+    background-color: rgba(0, 0, 0, 0.315);
+    color: red;
+    max-width: 170px; 
+    padding: 10px;
+  }
